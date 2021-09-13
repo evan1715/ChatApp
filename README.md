@@ -1,0 +1,3 @@
+# ChatApp
+
+This is a simple app that uses socket.io to create a WebSocket (TCP) connection to the server for live chat between users. A user can join a group that's already created or they can create a new one. It features autoscroll but won't autoscroll when there's a new message and you're scrolling upwards. Chats can be sent as well as a user's location. Users will be added and removed as they login and exit the tab so that they do not forever remain in the session. This app features NodeJS with Express, Socket.IO for the WebSocket, a profanity filter, and front-end vanilla JavaScript with templating using Mustache.
